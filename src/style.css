@@ -1,30 +1,34 @@
 body {
-  background-color: #e9dcd3;
+  background-color: #eef2f4;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-style: normal;
 }
 
 a {
-  color: #8b4411;
+  color: #446c9c;
 }
 
 .weather-app {
   background: white;
   max-width: 600px;
-  margin: 45px auto;
+  margin: 85px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
-  padding: 30px;
+  padding: 50px;
 }
 
 header {
-  border-bottom: 1px solid #e9dcd3;
+  border-bottom: 1px solid #eef2f4;
   padding: 0 0 30px 0;
 }
 
 .search-form-input {
-  background-color: #e9dcd3;
+  background: linear-gradient(
+    178.6deg,
+    rgb(232, 245, 253) 3.3%,
+    rgb(252, 253, 255) 109.6%
+  );
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -33,7 +37,7 @@ header {
 }
 
 .search-form-button {
-  background-color: #c89f7f;
+  background-color: #446c9c;
   padding: 15px 30px;
   border: none;
   margin-left: 5px;
@@ -52,18 +56,18 @@ main {
 
 .weather-app-city {
   margin: 0;
-  font-size: 38px;
+  font-size: 48px;
   line-height: 48px;
 }
 
 .weather-app-details {
-  font-size: 16px;
+  font-size: 15px;
   color: rgba(39, 33, 66, 0.4);
   line-height: 24px;
   font-weight: 300;
 }
 .weather-app-details strong {
-  color: #774e32;
+  color: #224b73;
 }
 .weather-app-temp-container {
   display: flex;
@@ -75,8 +79,8 @@ main {
 }
 
 .weather-app-temp {
-  font-size: 88px;
-  line-height: 88px;
+  font-size: 68px;
+  line-height: 68px;
   font-weight: bold;
 }
 
@@ -93,7 +97,7 @@ main {
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: #8e9aa6;
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
@@ -108,7 +112,7 @@ main {
 
 .weather-forecast-temps {
   text-align: center;
-  color: #f65282;
+  color: #2a4761;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -119,7 +123,7 @@ main {
 }
 
 footer {
-  border-top: 1px solid #e9dcd3;
+  border-top: 1px solid #eef2f4;
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 12px;
